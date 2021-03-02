@@ -1,0 +1,187 @@
+/*Revision History 
+
+#Dev             Date                  Desc
+PS(2013552)   2020-09-30      Created html and CSS folder and applied styling to website
+PS(2013552)   2020-09-30      Forgot to comment this revision history
+PS(2013552)   2020-10-25      Added some styling to project
+#PS(2013552)  2020-12-10      Added somestyling to tables*/
+body
+{
+background-color: #835C3B;
+font-family: Arial, Helvetica, Sans-serif;
+font-size: 16px;
+color: black;
+margin: 0;
+padding: 0;
+}
+.Background_body
+{
+        background-color: white;
+	background-position: -900px -350px;
+	min-height: 100px;
+	text-align: center;
+	color: black    ;
+	font-size: 1.5em;
+        padding: 10%;
+}
+.Background_body p
+{
+	padding: 10%;
+}
+.container
+{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+.container table
+{
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+}
+select
+{
+    font-size: 16px;
+    padding: 10px 5px;
+    margin: 5px;
+    width: 50%;
+}
+header
+{
+	/*-color: #35424a;*/
+        background-color: #EFDECD;
+	padding-top : 30px;
+	min-height: 70px;
+	border-bottom: 3px solid #835C3B;
+	height: 100px;
+	background-position: 0px -5px;
+	
+}
+
+header #branding
+{
+	float: left;
+}
+
+header nav
+{
+	float: right;
+	margin-top: 13px;
+}
+
+.highlight{
+	color:#fff;
+	font-weight:bold;
+}
+header a
+{
+	color: #835C3B;
+	text-decoration: none;	
+	font-size: 1.3em;
+	font-weight:bold;
+	padding-right:10px;
+}
+header a:hover{
+	color:#fff;
+	
+}
+header li
+{
+	display: inline;	
+}
+.after_navigation
+{
+  width: 50%;
+  margin: 20% 25%;
+}
+.front_page
+{
+        background-color: #835C3B;
+	background-position: -900px -350px;
+	min-height: 100px;
+	text-align: center;
+	color: white;
+	font-size: 1.5em;
+
+}
+.front_page
+{
+	padding: 10%;
+}
+
+.front_page p
+{
+	padding: 10%;
+}
+
+.footer
+{
+    color: white;
+    margin-left: 42%;
+}
+footer
+{
+	padding:10px;
+	background-color:#835C3B;
+	color:#fff;
+	text-align:center;
+}
+
+input[type=text], input[type=number], textarea, input[type=password]
+{
+  width: 100%;
+  padding: 12px 20px;
+  background-color: #EFDECD;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit], input[type = reset]{
+  width:50%;
+  background-color:#EFDECD;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/*input[type=number] 
+{
+  width: 100%;
+  padding: 12px 20px;
+  background-color: #EFDECD;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;  
+}*/
+.red
+{
+    color: red;
+}
+.print
+{
+    background-color: white;
+}
+
+table
+{
+    width : 100%;
+    margin: auto;
+}
+
+table, th, td 
+{
+  border: 1px solid White;
+  font-size:16px;
+}
+
+td input[type="submit"]
+{
+    width: 90px;
+}
